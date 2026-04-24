@@ -17,19 +17,13 @@ Hands-on AWS lab demonstrating creation and attachment of an EBS volume to an EC
 - Linux CLI
 - SSH
 
-## Steps Performed
-1. Launched EC2 instance
-2. Created EBS volume
-3. Attached volume to EC2
-4. Formatted filesystem (`mkfs`)
-5. Created mount directory
-6. Mounted volume
-7. Updated `/etc/fstab`
-8. Reboot verification
 
 ## Skills Demonstrated
-- AWS EC2 provisioning  
-- Amazon EBS storage  
-- Linux administration  
-- Filesystem mounting  
+- AWS EBS provisioning
+- Amazon EBS storage
+- Linux administration
+- Filesystem mounting
 - Persistent storage configuration
+
+## Outcome
+Successfully configured persistent storage on an EC2 instance using an EBS volume and /etc/fstab, ensuring the volume automatically mounts after reboot.
