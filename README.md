@@ -28,6 +28,15 @@ Hands-on AWS lab demonstrating creation and attachment of an EBS volume to an EC
 8. Updated /etc/fstab for persistent mounting
 9. Rebooted instance to verify persistence
 
+10. ## Commands Used
+lsblk
+sudo mkfs -t ext4 /dev/xvdf
+sudo mkdir /data
+sudo mount /dev/xvdf /data
+sudo blkid
+sudo nano /etc/fstab
+sudo mount -a
+
 
 ## Skills Demonstrated
 - AWS EBS provisioning
