@@ -17,6 +17,17 @@ Hands-on AWS lab demonstrating creation and attachment of an EBS volume to an EC
 - Linux CLI
 - SSH
 
+- ## Steps Performed
+1. Launched EC2 instance (Amazon Linux)
+2. Created new EBS volume in same Availability Zone
+3. Attached EBS volume to EC2 instance
+4. Formatted volume using mkfs (ext4)
+5. Created mount directory (/data)
+6. Mounted volume to /data
+7. Retrieved UUID using blkid
+8. Updated /etc/fstab for persistent mounting
+9. Rebooted instance to verify persistence
+
 
 ## Skills Demonstrated
 - AWS EBS provisioning
