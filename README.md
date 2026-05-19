@@ -39,13 +39,6 @@ sudo mount -a
 10. 
 
 
-## Skills Demonstrated
-- AWS EBS provisioning
-- Amazon EBS storage
-- Linux administration
-- Filesystem mounting
-- Persistent storage configuration
-
 
 ## Skills Demonstrated
 
