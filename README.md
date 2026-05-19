@@ -46,5 +46,25 @@ sudo mount -a
 - Filesystem mounting
 - Persistent storage configuration
 
+
+## Skills Demonstrated
+
+- AWS EBS provisioning
+- Amazon EBS storage
+- Linux administration
+- Filesystem mounting
+- Persistent storage configuration
+
+## Verification After Reboot
+
+After configuring `/etc/fstab` with the EBS volume UUID, I rebooted the EC2 instance to confirm the volume would automatically mount again.
+
+After the reboot, I verified the persistent mount with:
+
+```bash
+df -h
+sudo ls -la /data
+
+
 ## Outcome
 Successfully configured persistent storage on an EC2 instance using an EBS volume and /etc/fstab, ensuring the volume automatically mounts after reboot.
